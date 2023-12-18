@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bungee+Shade&family=Press+Start+2P&display=swap');
+
+:root {
+    --cor1: #7C27C2;
+    --cor2: #68398F;
+    --cor3: #8701F5;
+    --cor4: #4B375C;
+    --cor5: #2E2933;
+    --cor6: #BB9EF7;
+
+    --fontepadrao: Arial, Helvetica, sans-serif;
+    --fontedestaque: 'Bebas Neue', sans-serif;
+
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: var(--cor6);
+    font-family: var(--fontepadrao);
+    padding: 10px;
+    margin: 10px;
+    margin: auto;
+    min-width: 300px;
+    max-width: 1000px;
+    
+}
+
+header {
+    background-image: linear-gradient(to bottom, var(--cor4), var(--cor1));
+    text-align: center;
+    color: white;
+    padding: 15px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+header > h1 {
+    font-family: var(--fontedestaque);
+
+}
+
+nav {
+    background-color: var(--cor1);
+    padding: 10px;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.356);
+}
+
+nav > a {
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: .5s;
+}
+
+nav > a:hover {
+    background-color: var(--cor4);
+    padding: 5px;
+}
+
+main {
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+    text-align: justify;
+}
+
+main > p {
+    margin: 15px 0px;
+    text-indent: 20px;
+    line-height: 2em;
+}
+
+article > picture {
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+
+footer {
+    background-color: var(--cor4);
+    color: white;
+    text-align: center;
+    border-radius: 0px 0px 10px 10px;
+}
