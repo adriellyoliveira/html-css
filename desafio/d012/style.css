@@ -20,7 +20,7 @@ html, body {
 }
 
 header {
-    background-color: rgb(67, 49, 134);
+    background-color: rgb(18, 14, 32);
     color: white;
     text-align: center;
 }
@@ -29,7 +29,7 @@ header > h1 {
     padding-top: 50px;
     font-variant: small-caps;
     font-family: var(--fonte3);
-    font-size: 10vh;
+    font-size: 12vh;
 }
 
 header > p {
@@ -52,13 +52,28 @@ section {
     line-height: 3em;
     padding-left: 30px;
     font-family: var(--fonte2);
-    font-size: 3.5vh;
+    font-size: 2.5vh;
+}
+
+section > p {
+    padding-bottom: 2em;
+}
+
+section#img01 {
+    background-image: url('../d012/imagens/background1.jpeg');
+    background-position: right center;
+}
+
+
+section#img02 {
+    background-image: url('../d012/imagens/background2.jpeg');
 }
 
 section.imagem > p {
     display: inline;
     padding: 5px;
-    background-color: rgba(0, 0, 0, 0.308);
+    background-color: rgba(0, 0, 0, 0.514);
+    text-shadow: 2px 2px 0px black;
 }
 
 section.normal {
@@ -69,10 +84,13 @@ section.normal {
 section.imagem {
     background-color: rgb(59, 59, 61);
     color: white;
+    box-shadow: inset 4px 4px 8px 0px rgba(0, 0, 0, 0.377);
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 footer {
-    background-color: rgb(67, 49, 134);
+    background-color: rgb(18, 14, 32);
     color: white;
     text-align: center;
     padding: 10px;
